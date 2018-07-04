@@ -15,3 +15,12 @@
     background-color: #000;
 }
 
+.toolbar-ios-primary .bar-button-outline-ios-primary.activated {
+    color: #fff;
+    background-color: #000;
+}
+
+.toolbar-ios-primary .bar-button-solid-ios-primary {
+    color: #fff;
+    background-color: #000;
+}
