@@ -1352,7 +1352,7 @@
     "core.login.webservicesnotenabled": "Web Services are not enabled in your site. Please, contact your Moodle site administrator if you think mobile access should be enabled.",
     "core.lostconnection": "Your authentication token is invalid or has expired, you will have to reconnect to the site.",
     "core.mainmenu.appsettings": "App settings",
-    "core.mainmenu.changesite": "Change site",
+    "core.mainmenu.changesite": "Log out",
     "core.mainmenu.help": "Help",
     "core.mainmenu.logout": "Log out",
     "core.mainmenu.mycourses": "My courses",
