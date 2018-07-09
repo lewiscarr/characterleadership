@@ -5,10 +5,10 @@
         id        = "com.adaptivle.knowledgepush"
         versionCode = "35000"
         version   = "3.5.0">
-    <name>Knowkledgepush beta 3</name>
+    <name>Knowkledgepush</name>
 
     <description>
-        Knowledge Push
+        Knowledge Push, a mobile training platform and course library for business.
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
