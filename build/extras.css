@@ -40114,9 +40114,12 @@ p.item-heading.core-siteurl.ng-star-inserted {
 .tabs-md .tabbar {
     background: #626262;
 }
-.tabs-md .tab-button[aria-selected=true] {
-    color: #fff;
-    padding: 0;
+
+
+.core-tabs-bar .tabs-md a[aria-selected=true].tab-slide .tab-button-icon, .tabs-md .core-tabs-bar a[aria-selected=true].tab-slide .tab-button-icon, .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: #fff!important;
+    -webkit-transform: translate3d(0,-2px,0);
+    transform: translate3d(0,-2px,0);
 }
 
 
