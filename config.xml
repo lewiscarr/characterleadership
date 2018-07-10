@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.adaptivle.knowledgepush"
         versionCode = "35000"
-        version   = "3.5.0">
+        version   = "3.5.1">
     <name>Knowledgepush</name>
 
     <description>
