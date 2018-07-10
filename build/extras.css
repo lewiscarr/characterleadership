@@ -40110,3 +40110,11 @@ page-core-user-profile .core-user-profile-handler ion-spinner {
 p.item-heading.core-siteurl.ng-star-inserted {
     display:none;
 }
+
+.tabs-md .tabbar {
+    background: #626262;
+}
+.tabs-md .tab-button[aria-selected=true] {
+    color: #fff;
+    padding: 0;
+}
