@@ -40118,3 +40118,8 @@ p.item-heading.core-siteurl.ng-star-inserted {
     color: #fff;
     padding: 0;
 }
+
+
+.core-siteurl {
+    display: none;
+}
