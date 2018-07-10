@@ -5,7 +5,7 @@
         id        = "com.adaptivle.knowledgepush"
         versionCode = "35000"
         version   = "3.5.0">
-    <name>Knowledgepush DRABC</name>
+    <name>Knowledgepush</name>
 
     <description>
         Knowledge Push, a mobile training platform and course library for business.
