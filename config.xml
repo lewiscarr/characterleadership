@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodlerooms.pucp"
-        versionCode = "35000"
+        versionCode = "35001"
         version   = "3.5.0">
     <name>Instituto para la Calidad PUCP</name>
 
