@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodlerooms.pucp"
-        versionCode = "35001"
-        version   = "3.5.0.1">
+        versionCode = "35002"
+        version   = "3.5.0">
     <name>Instituto para la Calidad PUCP</name>
 
     <description>
@@ -16,7 +16,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.5.0.1</string>
+        <string>3.5.0</string>
     </edit-config>
 
     <gap:platform name="ios" />
