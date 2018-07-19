@@ -40126,3 +40126,7 @@ p.item-heading.core-siteurl.ng-star-inserted {
 .core-siteurl {
     display: none;
 }
+
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+ color:#fff;   
+}
