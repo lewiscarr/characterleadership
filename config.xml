@@ -160,14 +160,15 @@
     <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
 
-    <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-        <string>need camera access to take pictures</string>
+     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+        <string>This app requires camera access to take pictures that can be used for your user profile
+                or for taking pictures of your work which you can upload as evidence of your assessments.</string>
     </edit-config>
     <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
-        <string>need microphone access to record sounds</string>
+        <string>Microphone access can be used to record sounds and other audio which you can upload as part of your evidence for assessment</string>
     </edit-config>
     <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-        <string>need to photo library access to get pictures from there</string>
+        <string>Photo library access is required so that you can upload pictures and evidence for assessment from your photo library.</string>
     </edit-config>
 
     <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">
