@@ -40130,3 +40130,48 @@ p.item-heading.core-siteurl.ng-star-inserted {
 .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
  color:#fff;   
 }
+
+
+page-core-login-credentials .scroll-content {
+    background: url("../assets/img/loginbg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+page-core-login-reconnect .box {
+    padding: 16px;
+    margin: 8px;
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #3a3a3a;
+}
+
+page-core-login-credentials .box {
+    padding: 16px;
+    margin: 8px;
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+
+
+page-core-login-credentials .item-md {
+   
+    
+    background-color: transparent;
+   
+    
+}
+
+
+page-core-login-credentials .item-md.item-input.item-block .item-inner ion-input {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+page-core-login-credentials .box {
+   border: none;
+}
