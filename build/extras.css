@@ -40169,7 +40169,8 @@ page-core-login-credentials .item-md {
 
 page-core-login-credentials .item-md.item-input.item-block .item-inner ion-input {
     border: 1px solid #fff;
-    color: #fff;
+    color: #000;
+    background:#fff;
 }
 
 page-core-login-credentials .box {
