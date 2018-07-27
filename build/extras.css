@@ -40183,3 +40183,16 @@ page-core-login-credentials .box {
    background: #00848E;
     color: #fff;
 }
+
+ion-content.has-refresher>.scroll-content {
+    background-color: #E0F5F5;
+}
+
+
+page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content {
+    background: url("../assets/img/eventsbg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
