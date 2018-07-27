@@ -40176,3 +40176,10 @@ page-core-login-credentials .item-md.item-input.item-block .item-inner ion-input
 page-core-login-credentials .box {
    border: none;
 }
+
+
+
+.clearfix.ng-star-inserted {
+   background: #00848E;
+    color: #fff;
+}
