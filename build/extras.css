@@ -40190,9 +40190,7 @@ page-core-login-credentials .box {
     color: #fff;
 }
 
-ion-content.has-refresher>.scroll-content {
-    background-color: #227faa;
-}
+
 
 
 page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content {
@@ -40224,6 +40222,19 @@ page-addon-notifications-list.ion-page.ng-star-inserted.show-page ion-content.ha
     color: #fff;
 }
 
-ion-icon.icon.icon-md.ion-md-notifications {
-    color: #fff;
+
+
+page-core-mainmenu.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content {
+    background: #227faa;
+}
+
+page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content core-empty-box .core-empty-box .core-empty-box-content
+{
+color:#fff;
+}
+
+
+page-addon-notifications-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content core-empty-box .core-empty-box .core-empty-box-content
+{
+color:#fff;
 }
