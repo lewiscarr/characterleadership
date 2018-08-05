@@ -39015,10 +39015,13 @@ core-split-view ion-content.statusbar-padding:first-child .scroll-content {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center
+     background: #35495e;
+    color: #fff;
 }
 
 .core-tabs-bar ion-col.col-with-arrow ion-icon {
-    color: #ccc
+    color: #fff;
+    background: #35495e;
 }
 
 .md .core-tabs-bar a.tab-slide {
