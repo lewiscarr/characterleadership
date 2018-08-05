@@ -40224,9 +40224,7 @@ page-addon-notifications-list.ion-page.ng-star-inserted.show-page ion-content.ha
 
 
 
-page-core-mainmenu.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content {
-    background: #227faa;
-}
+
 
 page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content core-empty-box .core-empty-box .core-empty-box-content
 {
@@ -40237,4 +40235,15 @@ color:#fff;
 page-addon-notifications-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content core-empty-box .core-empty-box .core-empty-box-content
 {
 color:#fff;
+}
+
+
+ .core-tabs-bar .row {
+    width: 100%;
+    background: #35495e;
+}
+
+
+.clearfix.ng-star-inserted span.button-inner {
+    color: #fff;
 }
