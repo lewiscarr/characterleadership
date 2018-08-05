@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.tituslearning.eigo"
+        id        = "com.tituslearning.characterleadership"
         versionCode = "35000"
         version   = "3.5.0">
-    <name>EIGO</name>
+    <name>Student Athlete Program</name>
 
     <description>
-      An app to help Japanese elementary school teachers to improve their classroom English
+      This app teaches character, leadership and sportsmanship to high school athletes.
     </description>
 
     <author href="http://tituslearning.com" email="mobile@tituslearning.com">
@@ -49,7 +49,7 @@
     <preference name="load-url-timeout" value="60000" />
     <preference name="AppendUserAgent" value="MoodleMobile" />
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="27" />
     <preference name="android-installLocation" value="auto" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
