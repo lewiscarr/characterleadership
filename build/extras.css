@@ -27244,8 +27244,8 @@ ion-navbar.toolbar {
 }
 
 .toolbar-background-md {
-    border-color: #00848E;
-    background: #00848E;
+    border: none;
+    background: #ed2028;
 }
 
 .footer-md::before,
