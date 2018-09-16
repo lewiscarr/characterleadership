@@ -21795,7 +21795,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md .tabbar {
-    background: #003135
+    background: #ed2028;
 }
 
 .core-tabs-bar .tabs-md a.tab-slide,
@@ -40118,7 +40118,7 @@ p.item-heading.core-siteurl.ng-star-inserted {
 }
 
 .tabs-md .tabbar {
-    background: #495b57;
+    background: #ed2028;
 }
 
 
@@ -40186,7 +40186,7 @@ page-core-login-credentials .box {
 
 
 .clearfix.ng-star-inserted {
-   background: #4ca382;
+   background: #35495e;
     color: #fff;
 }
 
@@ -40214,7 +40214,7 @@ page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-ref
 
 
 page-addon-notifications-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content {
-    background: #4ca382;
+    background: #35495e;
 }
 
 page-addon-notifications-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content p.padding-top.ng-star-inserted 
