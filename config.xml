@@ -3,20 +3,21 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.tituslearning.characterleadership"
-        versionCode = "35003"
-        version   = "3.5.3">
+        versionCode = "35200"
+        android-versionCode="35200"
+        version   = "3.5.4">
     <name>Student Athlete Program</name>
 
     <description>
-      This app teaches character, leadership and sportsmanship to high school athletes.
+       This app teaches character, leadership and sportsmanship to high school athletes.
     </description>
 
-    <author href="http://tituslearning.com" email="mobile@tituslearning.com">
+   <author href="http://tituslearning.com" email="mobile@tituslearning.com">
         Titus Learning Mobile team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.5.3</string>
+        <string>3.5.4</string>
     </edit-config>
 
     <gap:platform name="ios" />
@@ -58,6 +59,7 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashScreenDelay" value="15000" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
 
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
@@ -120,8 +122,9 @@
         <splash src="resources/ios/splash/Default-Portrait~ipad.png" width="768" height="1024"/>
         <splash src="resources/ios/splash/Default@2x~iphone.png" width="640" height="960"/>
         <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
-        <splash src="resources/ios/splash/Default-Landscape@~ipadpro.png" width="f32" height="2048"/>
+        <splash src="resources/ios/splash/Default-Landscape@~ipadpro.png" width="2732" height="2048"/>
         <splash src="resources/ios/splash/Default-Portrait@~ipadpro.png" width="2048" height="2732"/>
+        <splash src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" height="2732"/>
     </platform>
 
     <gap:plugin name="cordova-plugin-camera" source="npm" />
@@ -136,8 +139,8 @@
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-clipboard" source="npm" />
-  
-    <gap:plugin name="phonegap-plugin-push" source="npm" version="1.11.1">
+    <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" />
+    <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" >
@@ -155,9 +158,11 @@
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </gap:plugin>
 
-    <!-- @todo: Android debuggable. -->
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
+    </edit-config>
 
-    <!-- See MOBILE-892 -->
+   <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
 
      <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
