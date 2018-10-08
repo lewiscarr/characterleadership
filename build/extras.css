@@ -40247,3 +40247,36 @@ color:#fff;
 .clearfix.ng-star-inserted span.button-inner {
     color: #fff;
 }
+
+
+ion-app.app-root.md .button-md {
+    min-height: 3.6rem;
+    background: #ed2028;
+    color: #fff!important;
+}
+
+
+ion-app.app-root.md .core-tabs-bar a.tab-slide {
+  
+    color: #fff!important;
+    background: #35495e;
+}
+
+ion-app.app-root.md .button-md {
+   
+    background: #ed2028;
+    
+}
+
+ion-app.app-root .core-tabs-bar a.tab-slide[aria-selected=true] {
+    color: #fff!important;
+    border: 0 !important;
+    border-bottom: 2px solid #ed2028 !important;
+    background: #ed2028!important;
+}
+
+
+page-core-courses-my-courses.ion-page.ng-star-inserted.show-page ion-app.app-root.md .button-md {
+   
+    color: #000!important;
+}
