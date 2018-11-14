@@ -40280,3 +40280,22 @@ page-core-courses-my-courses.ion-page.ng-star-inserted.show-page ion-app.app-roo
    
     color: #000!important;
 }
+
+
+ion-app.app-root.ios .button-ios-light {
+    color: #fff;
+    background: #ed2028;
+}
+
+
+
+
+
+page-addon-mod-feedback-index.ion-page.ng-star-inserted.show-page .button-ios {
+       font-size: 0.7em;
+}
+
+
+page-addon-mod-feedback-index.ion-page.ng-star-inserted.show-page .button-md {
+       font-size: 0.7em;
+}
