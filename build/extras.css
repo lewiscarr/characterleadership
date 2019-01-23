@@ -40301,7 +40301,7 @@ page-addon-mod-feedback-index.ion-page.ng-star-inserted.show-page .button-md {
 }
 
 ion-app.app-root .core-tabs-bar a.tab-slide[aria-selected=true] {
-    color: #ed2028!important;
+    color: #fff!important;
     border: 0!important;
     border-bottom: 2px solid #ed2028!important;
     padding: 0!important;
