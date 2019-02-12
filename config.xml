@@ -5,7 +5,7 @@
         id        = "com.tituslearning.characterleadership"
         versionCode = "36000"
         android-versionCode="36000"
-        version   = "3.6.0">
+        version   = "3.6.1">
     <name>Student Athlete Program</name>
 
     <description>
@@ -17,7 +17,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.6.0</string>
+        <string>3.6.1</string>
     </edit-config>
 
     <gap:platform name="ios" />
