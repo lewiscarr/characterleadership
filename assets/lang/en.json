@@ -1210,7 +1210,7 @@
     "core.course.activitydisabled": "Your organisation has disabled this activity in the mobile app.",
     "core.course.activitynotyetviewableremoteaddon": "Your organisation installed a plugin that is not yet supported.",
     "core.course.activitynotyetviewablesiteupgradeneeded": "Your organisation's Moodle installation needs to be updated.",
-    "core.course.allsections": "All sections",
+    "core.course.allsections": "View Weekly Lessons",
     "core.course.askadmintosupport": "Contact the site administrator and tell them you want to use this activity with the Moodle Mobile app.",
     "core.course.confirmdeletemodulefiles": "Are you sure you want to delete these files?",
     "core.course.confirmdownload": "You are about to download {{size}}. Are you sure you want to continue?",
