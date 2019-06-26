@@ -215,6 +215,12 @@
                     <p *ngIf="feedback.gradeddate">{{ feedback.gradeddate * 1000 | coreFormatDate }}</p>
                 </a>
 
+                <!-- Grader is hidden, display only the grade date. -->
+                <ion-item text-wrap *ngIf="!grader && feedback.gradeddate">
+                    <h2>{{ 'addon.mod_assign.gradedon' | translate }}</h2>
+                    <p>{{ feedback.gradeddate * 1000 | coreFormatDate }}</p>
+                </ion-item>
+
                 <!-- Warning message if cannot save grades. -->
                 <div *ngIf="isGrading && !canSaveGrades" class="core-warning-card" icon-start>
                     <ion-icon name="warning"></ion-icon>
@@ -237,7 +243,7 @@
             <p class="text-danger"><strong>{{ 'addon.mod_assign.noteam' | translate }}</strong></p>
             <p class="text-danger">{{ 'addon.mod_assign.noteam_desc' | translate }}</p>
         </ng-container>
-        <ng-container *ngIf="assign.preventsubmissionnotingroup && !lastAttempt.submissiongroup && lastAttempt.usergroups && lastAttempt.usergroups.length > 0">
+        <ng-container *ngIf="assign.preventsubmissionnotingroup && !lastAttempt.submissiongroup && lastAttempt.usergroups && lastAttempt.usergroups.length > 1">
             <p class="text-danger"><strong>{{ 'addon.mod_assign.multipleteams' | translate }}</strong></p>
             <p class="text-danger">{{ 'addon.mod_assign.multipleteams_desc' | translate }}</p>
         </ng-container>
